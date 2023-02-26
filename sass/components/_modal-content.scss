@@ -1,0 +1,50 @@
+.modal-header {
+  font-family: $second-font;
+  color: $brand-color;
+  font-size: 24px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-header {
+    font-size: 38px;
+    line-height: 1.15;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .modal-header {
+    font-size: 48px;
+    line-height: 1.14;
+    margin-bottom: 60px;
+  }
+}
+
+.modal-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-body {
+    font-size: 14px;
+    line-height: 1.76;
+    letter-spacing: 0.04em;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .modal-body {
+    font-size: 16px;
+    line-height: 1.94;
+    letter-spacing: 0.04em;
+    margin-bottom: 35px;
+  }
+}

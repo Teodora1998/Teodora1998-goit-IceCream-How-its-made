@@ -1,0 +1,39 @@
+.advantages-list__description {
+  display: flex;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.7;
+  letter-spacing: 0;
+  text-align: left;
+  max-width: 230px;
+  color: $black-color;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages-list__description {
+    font-weight: 14px;
+    line-height: 1.74;
+    letter-spacing: 0.02em;
+    max-width: 180px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advantages-list__description {
+    font-size: 16px;
+    line-height: 1.76;
+    max-width: 317px;
+    letter-spacing: 0.02em;
+  }
+}
+
+@keyframes rotateWithOrigin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(1turn);
+  }
+}

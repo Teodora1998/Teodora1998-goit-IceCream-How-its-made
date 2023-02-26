@@ -1,0 +1,32 @@
+.about-section__text-additional {
+  color: $text-color1;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.62;
+  transform: scale(1);
+  transition: all 0.2s linear;
+  margin-bottom: 20px;
+}
+
+.about-section__text-additional:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (min-width: 768px) {
+  .about-section__text-additional {
+    font-size: 14px;
+    line-height: 1.76;
+    letter-spacing: 0.04em;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-section__text-additional {
+    font-size: 14px;
+    line-height: 1.94;
+    letter-spacing: 0.04em;
+    margin-bottom: 40px;
+  }
+}

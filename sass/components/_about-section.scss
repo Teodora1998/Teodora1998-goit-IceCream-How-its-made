@@ -1,0 +1,39 @@
+.about-section {
+  background-color: $bg-color;
+  background-image: url(/images/sectionbg480.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 30% 70%;
+  padding-top: 60px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .about-section {
+    background-image: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-section {
+    background-image: url(/images/sectionbg1280.png);
+    background-position: 40% 90%;
+  }
+}
+
+.about-container {
+  margin: 0;
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-container {
+    padding-left: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-container {
+    padding-left: 16px;
+  }
+}

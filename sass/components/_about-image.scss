@@ -1,0 +1,36 @@
+.about-section__image {
+  text-align: center;
+  width: 280px;
+  height: 279px;
+}
+
+.about-section__image:hover {
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(40deg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-section__image {
+    height: 340px;
+    width: 339px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-section__image {
+    height: 516px;
+    width: 516px;
+  }
+}

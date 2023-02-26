@@ -1,0 +1,82 @@
+.modal-list {
+  display: block;
+  justify-content: space-evenly;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-list {
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .modal-list {
+  }
+}
+
+.modal-list__item {
+  display: block;
+  color: $white-color;
+  font-size: 10px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.62;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  max-width: 220px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-list__item {
+    max-width: 335px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .modal-list__item {
+    font-size: 16px;
+    margin-top: 30px;
+    max-width: 465px;
+  }
+}
+
+.modal-list__image {
+  display: block;
+}
+
+.modal-list__image-item {
+  width: 104px;
+  height: 100px;
+}
+
+.modal-list__image-item:hover {
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(40deg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .modal-list__image-item {
+    height: 125px;
+    width: 125px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .modal-list__image-item {
+    height: 146px;
+    width: 146px;
+  }
+}

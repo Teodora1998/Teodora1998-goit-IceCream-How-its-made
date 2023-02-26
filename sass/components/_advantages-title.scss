@@ -1,0 +1,29 @@
+.advantages-list__title {
+  font-family: $second-font;
+  justify-content: space-evenly;
+  font-size: 36px;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: left;
+  color: $brand-color;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages-list__title {
+    font-size: 48px;
+    line-height: 1.15;
+    margin-bottom: 13px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advantages-list__title {
+    font-size: 58px;
+    margin-bottom: 16px;
+    padding-top: 30px;
+  }
+}

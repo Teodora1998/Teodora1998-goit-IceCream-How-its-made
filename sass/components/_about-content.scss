@@ -1,0 +1,26 @@
+.about-section__content {
+  display: block;
+  justify-content: center;
+  margin-top: 40px;
+  width: 220px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-section__content {
+    display: block;
+    z-index: 1;
+    width: 334px;
+    margin-top: 0;
+    margin-left: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-section__content {
+    display: block;
+    z-index: 1;
+    width: 463px;
+    padding-top: 75px;
+    margin-left: 99px;
+  }
+}

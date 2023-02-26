@@ -1,0 +1,124 @@
+.advantages-list {
+  display: block;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages-list {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advantages-list {
+    display: flex;
+  }
+}
+
+.advantages-list__item {
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.advantages-list__item:before {
+  animation: rotateWithOrigin 3s linear 1s infinite;
+}
+
+@media screen and (max-width: 767px) {
+  .advantages-list__item {
+    max-width: 230px;
+  }
+
+  .advantages-list__item:not(:last-child) {
+    margin-bottom: 104px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .advantages-list__item {
+    transition: all 2.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .advantages-list__item:not(:last-child) {
+    margin-right: 60px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advantages-list__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.advantages-list__item--first:before {
+  content: " ";
+  position: absolute;
+  height: 50px;
+  width: 44px;
+  top: -66px;
+  left: -5px;
+  background-image: url(/images/image1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages-list__item--first:before {
+    top: -85px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advantages-list__item--first:before {
+    top: -89px;
+  }
+}
+
+.advantages-list__item--second:before {
+  content: " ";
+  position: absolute;
+  height: 50px;
+  width: 44px;
+  top: -66px;
+  left: -5px;
+  background-image: url(/images/image2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages-list__item--second:before {
+    top: -85px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advantages-list__item--second:before {
+    top: -89px;
+  }
+}
+
+.advantages-list__item--third:before {
+  content: " ";
+  position: absolute;
+  height: 50px;
+  width: 44px;
+  top: -66px;
+  left: -5px;
+  background-image: url(/images/image3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages-list__item--third:before {
+    top: -85px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advantages-list__item--third:before {
+    top: -89px;
+  }
+}

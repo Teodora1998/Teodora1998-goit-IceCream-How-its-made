@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IceCream</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="css/main.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Titan+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+
+  <div class="modal is-hidden" data-modal>
+    <div class="modal__inner-modal">
+      <h2 class="modal-header">how it’s made?</h2>
+      <button class="modal__close-modal">
+        <svg width="11" height="11" data-modal-close>
+          <use href="/images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="modal-body">
+        <div class="modal-list">
+          <p class="modal-list__item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga nam nihil
+            repellendus magnam
+            reprehenderit, porro aperiam quidem. Recusandae in totam esse ab voluptates pariatur maxime accusamus
+            voluptatum cupiditate expedita.</p>
+
+          <p class="modal-list__item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum impedit pariatur,
+            repellat dolorum modi
+            veniam
+            incidunt saepe exercitationem voluptas sit ex blanditiis voluptatum aspernatur explicabo delectus autem
+            quibusdam cupiditate velit.</p>
+
+          <p class="modal-list__item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, pariatur
+            quibusdam facere voluptas omnis
+            earum, recusandae accusamus distinctio quia repudiandae, officia error alias quidem similique cupiditate.
+            Corrupti magni iste perspiciatis.</p>
+        </div>
+        <div class="modal-list__image">
+          <img class="modal-list__image-item"
+            srcset="images/cow-image480.png 480w, images/cow-image768.png 7680w, images/cow-image1280.png 1280w"
+            src="images/cow-image480.png" alt="cow-image">
+
+          <img class="modal-list__image-item"
+            srcset="images/milk_bottles480.png 480w, images/milk_bottles768.png 768w, images/milk_bottles1280.png 1280w"
+            src="images/milk_bottles480.png" alt="milk-bottles">
+          <img class="modal-list__image-item"
+            srcset="images/cream480.png 480w, images/cream768.png 768w, images/cream1280.png 1280w"
+            src="images/cream480.png" alt="ice-cream">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <section class="about-section" id="how-its-made">
+    <div class="about-container">
+      <p class="about-section__label">TRADITION AND LOVE</p>
+      <h2 class="about-section__title">HOW IT'S MADE</h2>
+      <div class="about-section__main">
+        <img class="about-section__image"
+          srcset="images/home-pic480.png 480w, images/home-pic768.png 768w, images/home-pic1280.png 1280w"
+          src="images/home-pic480.png" alt="bio-eco">
+        <div class="about-section__content">
+          <p class="about-section__text-main">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo
+            cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.</p>
+          <p class="about-section__text-simple">Curabitur lacinia enim at ex blandit, vel pellentesque odio
+            elementum.
+            Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat
+            urna
+            maximus. Cras massa nibh, tincidunt.</p>
+          <p class="about-section__text-additional">Aliquam erat volutpat. Aenean accumsan.</p>
+          <button class="about-section__button" type="button" data-modal-open>Read more <svg class="about-section__icon"
+              width="8" height="10">
+              <use href="/images/icons.svg#icon-arrow"></use>
+            </svg> </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="advantages">
+    <div class="about-container">
+      <h2 class="hidden">Advantages</h2>
+      <ul class="advantages-list">
+        <li class="advantages-list__item advantages-list__item--first">
+          <h3 class="advantages-list__title">721</h3>
+          <p class="advantages-list__description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+        </li>
+        <li class="advantages-list__item advantages-list__item--second">
+          <h3 class="advantages-list__title">16kg</h3>
+          <p class="advantages-list__description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+        </li>
+        <li class="advantages-list__item advantages-list__item--third">
+          <h3 class="advantages-list__title">84</h3>
+          <p class="advantages-list__description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <script src="./js/modal.js"></script>
+</body>
